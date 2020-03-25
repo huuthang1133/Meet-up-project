@@ -1,4 +1,8 @@
-.event-container {
+.event {
+	display: flex;
+}
+
+.event .event-container {
 	width: 340px;
 	height: 260px;
 	border-radius: 10px;
@@ -9,54 +13,55 @@
 	font-family: sans-serif;
 	position: relative;
 	transform: translate(0px,0px);
+	margin-right: 20px;
 }
 
-.event-container:hover {
+.event .event-container:hover {
 	transform: translate(0px,-1px);
 	transition: all 0.2s;
 }
 
-.event-container .event-date {
+.event .event-container .event-date {
 	color: #2CAAB9;
 	font-size: 12px;
 	margin-bottom: 20px;
 	font-weight: bold;
 }
 
-.event-container .event-title {
+.event .event-container .event-title {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
 
-.event-container .main-title {
+.event .event-container .main-title {
 	font-size: 18px;
 	color: #212121;
 	margin-bottom: 20px;
 }
 
-.event-container .location {
+.event .event-container .location {
 	color: #757575;
 	font-size: 15px;
 	margin-bottom: 20px;
 }
 
-.event-container .location i {
+.event .event-container .location i {
 	margin-right: 10px;
 }
 
-.event-container .attend {
+.event .event-container .attend {
 	margin-bottom: 0px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.event-container .attend span {
+.event .event-container .attend span {
 	color: #757575;	
 }
 
-.event-container .attend div {
+.event .event-container .attend div {
 	width: 90px;
 	height: 40px;
 	color: #0098AB;
@@ -67,7 +72,7 @@
 	justify-content: center;
 }
 
-.event-container .attend div:hover {
+.event .event-container .attend div:hover {
 	background-color: #0098AB;
 	color: #FFF;
 }

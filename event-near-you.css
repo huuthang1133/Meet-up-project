@@ -1,3 +1,25 @@
+.event-near-you {
+	width: 1060px;	
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.event-near-you div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.event-near-you div .see-all {
+	color: #00A2C9;
+}
+
+.event-near-you .see {
+	font-size: 14px;
+}
+
 .event {
 	display: flex;
 }
